@@ -4,4 +4,4 @@
 
 ## 预定义的接口和类
 - Traversable
-检测类是否可以通过foreach遍历
+检测类是否可以通过foreach遍历.
