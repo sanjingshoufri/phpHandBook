@@ -6,3 +6,4 @@
 
 ## Illuminate\Routing\ControllerDispatcher
 ### method_list
+- dispatch()，分发
