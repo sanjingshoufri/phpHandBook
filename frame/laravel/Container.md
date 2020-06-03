@@ -24,6 +24,7 @@
 
 - getConcrete()，抽象类的具体类.
 	- getContextualConcrete()，抽象类的上下文的具体绑定.
+		- findInContextualBindings()，
 
 - getLastParameterOverride()，上一个重写参数.
 
@@ -31,6 +32,3 @@
 - build()   实例化具体类.
 
 - getClosure()，    
-
-- getContextualConcrete()，
-- findInContextualBindings()，
