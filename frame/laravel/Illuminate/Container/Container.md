@@ -1,16 +1,17 @@
 # Illuminate\Container\Container
 ## property
-- with[], 重载参数栈
+- with[]              重载参数栈
 
-- buildStack
-	- 当前构建的具体类的栈
-    - 
+- buildStack          当前构建的具体类的栈
 
-- extenders，service拓展包
+- abstractAliases     抽象类的别名
 
-- instances，容器中的共享实例
+- extenders           service拓展包
 
-- bindings[]，容器的绑定
+- instances           容器中的共享实例
+
+- bindings[]          容器的绑定
+
 
 ## method_list
 - singleton()，容器内注册一个共享绑定(只实例化一次).
