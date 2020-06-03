@@ -1,17 +1,12 @@
 # Illuminate\Container\Container
 ## property
 - with[]              重载参数栈
-
-- buildStack          当前构建的具体类的栈
-
+- buildStack          
 - abstractAliases     抽象类的别名
-
 - extenders           service拓展包
-
 - instances           容器中的共享实例
-
-- bindings[]          容器的绑定
-
+- bindings[]          绑定
+- contextual          上下文绑定映射
 
 ## method_list
 - singleton()，容器内注册一个共享绑定(只实例化一次).
@@ -25,7 +20,7 @@
 
 - getConcrete()，抽象类的具体类.
 	- getContextualConcrete()，抽象类的上下文的具体绑定.
-		- findInContextualBindings()，
+		- findInContextualBindings()，contextual属性中取值.
 
 - getLastParameterOverride()，上一个重写参数.
 
@@ -33,3 +28,6 @@
 - build()   实例化具体类.
 
 - getClosure()，    
+
+- alias()，
+	- 这个方法是什么时候调用的
