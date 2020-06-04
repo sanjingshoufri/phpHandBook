@@ -1,0 +1,2 @@
+# Illuminate\Database\Eloquent\Factory
+## 
