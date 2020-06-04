@@ -16,7 +16,8 @@
     - resolveDependencies()，从反射参数中解析所有的依赖.
 
 - resolved()，判断给定的抽象类型是否已经解析.
-- instance()，在容器中注册一个共享实例.
+
+- instance()         在容器中注册一个共享实例.
 
 - getConcrete()，抽象类的具体类.
 	- getContextualConcrete()，抽象类的上下文的具体绑定.
