@@ -1,10 +1,10 @@
 # PHP-FPM
 ## 概述
-- PHP与PHP-FPM协同工作，之间有两种通信方式unix socket和tcp socket.
+- PHP与PHP-FPM协同工作，之间有两种通信方式unix socket和tcp socket
 
 ## 优化
 - 背景
-	- 优化PHP-FPM可以提高NGINX的性能.
+	- 优化PHP-FPM可以提高NGINX的性能
 - 配置FPM(php-fpm.conf)
 	- emergency_restart_threshold 10
 		- 重启设置
